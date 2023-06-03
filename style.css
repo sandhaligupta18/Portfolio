@@ -551,42 +551,21 @@ span {
     color: var(--second-bg-color);
 }
 
-@media(max-width:1200px) {
+/* @media(max-width:1280px) {
     html {
         font-size: 55%;
     }
-}
+} */
 
-@media(max-width:991px) {
-    .header {
-        padding: 2rem 3%;
+
+
+@media(max-width: 1280px) {
+    html{
+        font-size: 47%;
     }
-
-    section {
-        padding: 10rem 3% 2rem;
-    }
-
-    .services {
-        padding-bottom: 7rem;
-    }
-
-    .contact {
-        min-height: auto;
-    }
-
-    .portfolio {
-        padding-bottom: 7rem;
-    }
-
-    .footer {
-        padding: 2rem 3%;
-    }
-
-}
-
-@media(max-width:768px) {
     #menu-icon {
         display: block;
+        margin-right: 32px;
     }
 
     .navbar {
@@ -628,13 +607,117 @@ span {
         margin-top: 4rem;
     }
 
-    .about {
-        flex-direction: column-reverse;
+    /* .about {
+        /* flex-direction: column-reverse; 
+        display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    background: var(--second-bg-color);
+        
     }
 
     .about img {
         width: 70vw;
         margin-top: 4rem;
+
+    } */
+    .about {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        gap: 2rem;
+        background: var(--second-bg-color);
+        /* flex-wrap: wrap; */
+    }
+    
+    .about-img img {
+        width: 70vw;
+        margin-top: 4rem;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+    
+    section{
+        min-height: 72vh;
+     
+    }
+    
+  .heading{
+    margin-left: 30px;
+  }
+    
+    .about1 {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .abouts1 {
+        height: 62px;
+        width: 117px;
+        background-color: var(--bg-color);
+       margin-left: 63px;;
+        /* padding-top: 25px; */
+        font-size: 6.5px;
+        font-weight: 100;
+        border-radius: 50%;
+        padding-left: 10px;
+        cursor: pointer;
+        transition: 2s ease-out;
+        border: .2rem solid var(--main-color);
+        transition: .5s ease-out;
+    }
+    
+    .abouts1:hover {
+        background-color: rgb(27, 29, 29);
+        transform: scale(1);
+    }
+    
+    
+    .abouts2 {
+        height: 62px;
+        width: 117px;
+        background-color: var(--bg-color);
+        margin-top: 6px;
+        margin-left: 63px;
+        padding-top: 22px;
+        font-size: 16px;
+        font-weight: 100;
+        border-radius: 50%;
+        padding-left: 15px;
+        transition: 2s ease-out;
+        border: .2rem solid var(--main-color);
+        cursor: pointer;
+        transition: .5s ease-out;
+    }
+    
+    .abouts2:hover {
+        background-color: rgb(27, 29, 29);
+        transform: scale(1);
+    }
+    
+    .abouts3 {
+        height: 62px;
+        width: 117px;
+        background-color: var(--bg-color);
+        margin-top: 6px;
+        margin-left: 63px;
+        padding-top: 24px;
+        font-size: 17px;
+        font-weight: 100;
+        border-radius: 50%;
+        padding-left: 12px;
+        border: .2rem solid var(--main-color);
+        transition: .5s ease-out;
+        cursor: pointer;
+    }
+    
+    .abouts3:hover {
+        background-color: rgb(27, 29, 29);
+        transform: scale(1);
+    
     }
 
     .services h2 {
@@ -642,46 +725,48 @@ span {
     }
 
     .portfolio h2 {
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
     }
 
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+.edu-container {
+    display: block;
+    /* grid-template-columns: repeat(3, 1fr); */
+    align-items: center;
+    gap: 2.5rem;
 
-@media(max-width:617px) {
-    .portfolio-container {
-        grid-template-columns: 1fr;
-    }
+}
+.edu-layer{
+    font-size: 23px;
+}
+.edu-box1 h4 {
+    font-size: 4.3rem;
 }
 
-@media (max-width:450px) {
-    html {
-        font-size: 50%;
-
-    }
-
-    .contact form .input-box input {
-        width: 100%;
-    }
+.edu-box1 p {
+    font-size: 1.7rem;
+    
+}
+.edu-container .edu-box1{
+    padding-left: 6rem;
+}
+.edu-box2 h4 {
+    font-size: 4.3rem;
 }
 
-@media(max-width:365px) {
-    .home-img img {
-        width: 90vw;
-    }
-
-    .about-img img {
-        width: 90vw;
-    }
-
-    .footer {
-        flex-direction: column-reverse;
-    }
-
-    .footer p {
-        text-align: center;
-        margin-top: 2rem;
-    }
+.edu-box2 p {
+    font-size: 1.8rem;
 }
+.edu-box3 h4 {
+    font-size: 4.33rem;
+}
+
+.edu-box3 p {
+    font-size: 1.8rem;
+}
+
+
+

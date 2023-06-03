@@ -731,7 +731,7 @@ span {
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
-}
+
 .edu-container {
     display: block;
     /* grid-template-columns: repeat(3, 1fr); */
@@ -767,6 +767,6 @@ span {
 .edu-box3 p {
     font-size: 1.8rem;
 }
-
+}
 
 

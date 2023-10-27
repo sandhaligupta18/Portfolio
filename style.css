@@ -652,6 +652,9 @@ gap: 60px;
 
 
 @media(max-width: 1280px) {
+    body{
+        overflow:hidden;
+    }
     html{
         font-size: 47%;
     }
